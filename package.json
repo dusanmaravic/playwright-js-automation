@@ -1,0 +1,27 @@
+{
+  "name": "playwright-javascript-automation",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed",
+    "ctest": "playwright test --headed --project=chromium",
+    "ftest": "playwright test --headed --project=firefox",
+    "wtest": "playwright test --headed --project=webkit",
+    "debug_ps": "$env:PWDEBUG=1",
+    "debug_ps_console": "$env:PWDEBUG='console'",
+    "debug_ps_api": "$env:DEBUG='pw.api'",
+    "debug_bash": "PWDEBUG=1",
+    "debug_bash_console": "PWDEBUG=console",
+    "debug_bash_api": "DEBUG=pw:api" 
+  },
+  "keywords": [],
+  "author": "dusan_maravic <dusan.maravic@typeqast.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.22-next"
+  }
+}
