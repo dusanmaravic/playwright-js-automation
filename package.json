@@ -16,12 +16,13 @@
     "debug_ps_api": "$env:DEBUG='pw.api'",
     "debug_bash": "PWDEBUG=1",
     "debug_bash_console": "PWDEBUG=console",
-    "debug_bash_api": "DEBUG=pw:api" 
+    "debug_bash_api": "DEBUG=pw:api"
   },
   "keywords": [],
   "author": "dusan_maravic <dusan.maravic@typeqast.com>",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "1.21"
+    "@playwright/test": "1.21",
+    "npx-run": "^2.1.2"
   }
 }
