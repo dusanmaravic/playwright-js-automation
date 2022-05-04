@@ -22,6 +22,6 @@
   "author": "dusan_maravic <dusan.maravic@typeqast.com>",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "1.22-next"
+    "@playwright/test": "1.21"
   }
 }
